@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    nav{
+        .burger{
+            display: block;
+            cursor: pointer;
+        }
+                
+        .nav-links{
+            width: 100%;
+            position: absolute;
+            right: 0px;
+            height: 92vh;
+            top: 8vh;
+            background-color: $nav-bg;
+            flex-direction: column;
+            align-items: center;
+            transform: translateX(100%);
+            transition: transform 0.5s ease-in;
+
+            li{
+                opacity: 0;
+            }
+        }
+    }
+}
+
+.nav-active{
+    transform: translateX(0%) !important;
+}
+
+
+
