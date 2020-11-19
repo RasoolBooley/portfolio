@@ -1,29 +1,12 @@
-// Descriptive color variables
+// colors
 
 $white : rgb(216, 202, 202);
-$black : #000;
-$grey : #878787;
-$regent-st-blue : #add8e6;
-$river-bed : #48525c;
-$yellow-orange : #ffa949;
-$color-text-dark: #2a2a2a;
-
+$button-white: rgb(230, 219, 219);
+$button-bg: rgb(173, 173, 173);
 $nav-bg: #5d4954;
 
-// Functional color variables
 
-$color-prim : $yellow-orange;
-$color-sec : $river-bed;
 
-$color-text-light : $white;
-$color-text-base : $grey;
-$color-text-dark : $river-bed;
+// fonts 
 
-$color-border-light : lighten($grey, 35%);
-$color-border-dark : $yellow-orange;
-
-$color-link-default : $yellow-orange;
-$color-link-visited : $regent-st-blue;
-
-$color-shadow : rgba($black, .8);
-$color-body : $white;
+$main-font: 'Poppins', sans-serif;
