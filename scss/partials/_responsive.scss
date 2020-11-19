@@ -1,8 +1,5 @@
 @media (max-width: 768px) {
-
-
-    nav{
-        
+    nav{    
         .burger{
             display: block;
             cursor: pointer;
@@ -23,6 +20,12 @@
             li{
                 opacity: 0;
             }
+        }
+    }
+    .main-header{
+        h1{
+            margin-bottom: 30px;
+            font-size: 45px;
         }
     }
 }
