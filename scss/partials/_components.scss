@@ -1,5 +1,6 @@
 
 nav{
+    max-width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -85,6 +86,7 @@ nav{
 
     h1{
         font-size: 50px;
+        padding: 0 10px;
     }
 
     p{

@@ -5,7 +5,12 @@
   box-sizing: border-box;
   scroll-behavior: smooth; }
 
+body {
+  max-width: 100%;
+  overflow-x: hidden; }
+
 nav {
+  max-width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -64,7 +69,8 @@ nav {
   font-family: "Poppins", sans-serif;
   color: #d8caca; }
   .main-header h1 {
-    font-size: 50px; }
+    font-size: 50px;
+    padding: 0 10px; }
   .main-header p {
     font-size: 20px; }
   .main-header a {
@@ -79,15 +85,12 @@ nav {
     box-shadow: inset 150px 0 0 0 #adadad; }
 
 @media (max-width: 768px) {
-  body {
-    overflow-x: hidden; }
-
   nav .burger {
     display: block;
     cursor: pointer; }
   nav .nav-links {
     width: 100%;
-    position: absolute;
+    position: fixed;
     right: 0px;
     height: 92vh;
     top: 8vh;

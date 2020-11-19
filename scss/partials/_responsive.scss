@@ -1,9 +1,8 @@
 @media (max-width: 768px) {
-    body{
-        overflow-x: hidden;
-    }
+
 
     nav{
+        
         .burger{
             display: block;
             cursor: pointer;
@@ -11,7 +10,7 @@
                 
         .nav-links{
             width: 100%;
-            position: absolute;
+            position: fixed;
             right: 0px;
             height: 92vh;
             top: 8vh;

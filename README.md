@@ -32,6 +32,7 @@
 
 - building landing page
 - added email to link
+- Fixed nav issue on mobile
 
 # Contributors 
 
