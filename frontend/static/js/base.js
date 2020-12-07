@@ -33,8 +33,7 @@ const newPage = () => {
             }
         });
 
-        burger.classList.toggle('toggle');
-        
+        burger.classList.toggle('toggle');  
         });
     });
 };
