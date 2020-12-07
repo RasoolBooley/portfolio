@@ -15,7 +15,8 @@
 
 ### Technologies used
 
-- Ruby
+- NodeJs
+- ExpressJs
 - VScode
 - GitBash
 
@@ -33,6 +34,9 @@
 - building landing page
 - added email to link
 - Fixed nav issue on mobile
+
+2020/12/07
+- rebuilt with express JS
 
 # Contributors 
 
