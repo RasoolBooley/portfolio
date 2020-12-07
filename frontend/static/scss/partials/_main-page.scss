@@ -1,0 +1,42 @@
+.main-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../img/landing-page.jpg);
+    background-color: $nav-bg;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    font-family: $main-font;
+    color: $white;
+
+    h1{
+        font-size: 50px;
+        padding: 0 10px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    a{
+        text-decoration: none; 
+        color: $button-white;
+        padding: 8px 16px;
+        border: solid 1px $button-white;
+        margin-top: 20px;
+        border-radius: 5px;
+        transition: ease-out 0.4s;
+    }
+
+    a:hover{
+        box-shadow: inset 150px 0 0 0 $button-bg;
+    }
+}
+
+
+
+
+
