@@ -1,7 +1,7 @@
 body{
     background-color: $page-bg-col;
-    background-image: url(../img/landing-page.jpg);
-    background-color: $nav-bg;
+    // background-image: url(../img/landing-page.jpg); 
+    // background-color: $nav-bg;
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
@@ -12,7 +12,7 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    color: $white;
+    color: $main-font-col;
 
     img{
         margin-top: 30px;
@@ -30,19 +30,14 @@ body{
         grid-template-columns: repeat(4, 1fr);
         margin-top: 40px;
         font-family: $main-font;
-        color: $white;
+        
     
         .logo-bg{
             background-color: $white;
             border-radius: 50%;
-            width: 150px;
-
-            img{
-                height: 50px;
-                width: 50px;
-                margin: 0;
-                color: $white;
-            }
+            border: 2px $border-col solid;
+            width: 140px;
+            height: 140px;
         }
     
         div{
@@ -64,16 +59,30 @@ body{
         }
     
         a{
-            color: $white;
+            color: $main-font-col;
+            text-decoration: none;
         }
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
     .contact-page{
         .contact-logos{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-page{
+        .contact-logos{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        img{
+            margin-top: 20px;
         }
     }
 }
