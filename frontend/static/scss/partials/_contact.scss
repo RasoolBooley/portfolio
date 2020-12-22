@@ -1,28 +1,26 @@
 body{
-    background-color: $page-bg-col;
-    // background-image: url(../img/landing-page.jpg); 
-    // background-color: $nav-bg;
+    background-color: $body-bg;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 90vh;
+    // height: 90vh;
 }
 
 .contact-page{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
-    color: $main-font-col;
+    align-items: center;    
 
     img{
         margin-top: 30px;
-        height: 200px;
-        width: 200px;
+        height: 250px;
+        width: 250px;
     }
     
     .contact-text{
         padding-top: 40px;
         font-family: $main-font;
+        color: $white;
     }
     
     .contact-logos{
@@ -33,9 +31,9 @@ body{
         
     
         .logo-bg{
-            background-color: $white;
+            background-color: $off-white;
             border-radius: 50%;
-            border: 2px $border-col solid;
+            border: 2px $nav-bg solid;
             width: 140px;
             height: 140px;
         }

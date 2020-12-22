@@ -1,14 +1,36 @@
+//blues
+$light-blue: rgb(219, 222, 245);
+$medium-blue: rgb(194, 201, 243);
+$dark-blue: rgb(105, 122, 206);
+
+
 // colors
 
-$white : rgb(216, 202, 202);
+$white : #f5f5f5;
+$off-white: #ebdfdff5;
 $button-white: rgb(230, 219, 219);
-$button-bg: rgb(173, 173, 173);
-$nav-bg: #5d4954;
-$main-font-col: #70696d;
+$button-bg: $dark-blue;
+$nav-bg: $dark-blue; 
+$body-bg: $medium-blue;
+$main-font-col: $dark-blue;
 $border-col: red;
+
+// icon colours
+$html:rgb(190, 130, 18);
+$css: blue;
+$js:rgb(202, 202, 0);
+$node:green;
+
 
 $page-bg-col: #c7c2c2;
 
+
+//options
+
+//complementary
+$light-pastel-orange:#f3f1c2;
+$pastel-orange: #f3d9c2;
+$dark-pastel-orange:#f3c2c6;
 
 
 // fonts 

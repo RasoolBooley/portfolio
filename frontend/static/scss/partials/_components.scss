@@ -8,6 +8,7 @@ nav{
     background-color: $nav-bg;
     font-family: $main-font;
     color: $white;
+    border-bottom: 1px $white solid;
     position: sticky;
     top: 0;
 
