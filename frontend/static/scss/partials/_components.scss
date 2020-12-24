@@ -11,6 +11,7 @@ nav{
     border-bottom: 1px $white solid;
     position: sticky;
     top: 0;
+    z-index: 3;
 
     .logo{
         color: $white;

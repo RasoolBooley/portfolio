@@ -61,19 +61,180 @@
         grid-template-columns: repeat(5, 1fr);
         grid-gap: 25px;
         padding: 50px;
+        
+
+        .text-box{
+            position: absolute;
+            opacity: 0;
+            height: auto;
+            width: 200px;
+            background-color: $off-white;
+            border: 1px solid $nav-bg ;
+            border-radius: 5px;
+            display: block;
+            transition: .3s;
+            margin-top: -100px;
+            
+            p{
+                color: $dark-blue;
+                text-align: center;
+                padding: 10px;
+                font-family: $main-font;
+                font-size: 20px;
+                opacity: 0;
+                width: 200px;
+                transition: .6s;
+                font-weight: 100;
+            }
+            
+        }
+
+        .fa-windows{
+            color: $cSharp;
+
+            &:hover{
+                .cPopup{
+                    opacity: 1;
+    
+                    p{
+                        display: block;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        .fa-vuejs{
+            &:hover{
+                .vuePopup{
+                    opacity: 1;
+    
+                    p{
+                        display: block;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
 
         .fa-html5{
             color: $html;
+
+            &:hover{
+                .htmlPopup{
+                    opacity: 1;
+    
+                    p{
+                        display: block;
+                        opacity: 1;
+                    }
+                }
+            }
         }
+
+        .fa-sass{
+            color: rgb(207, 100, 118);
+
+            &:hover{
+                .sassPopup{
+                    opacity: 1;
+    
+                    p{
+                        display: block;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        .fa-jira{
+            color:$jira;
+
+            &:hover{
+                .jiraPopup{
+                    opacity: 1;
+    
+                    p{
+                        display: block;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        .fa-database{
+            color:$sql;
+
+            &:hover{
+                .sqlPopup{
+                    opacity: 1;
+    
+                    p{
+                        display: block;
+                        opacity: 1;
+                        
+                    }
+                }
+            }
+        }
+
         .fa-css3-alt{
             color: $css;
+
+            &:hover{
+                .cssPopup{
+                    opacity: 1;
+    
+                    p{
+                        display: block;
+                        opacity: 1;
+                    }
+                }
+            }
         }
+
+
         .fa-js-square{
             color:$js;
+
+            &:hover{
+                .jsPopup{
+                    opacity: 1;
+    
+                    p{
+                        display: block;
+                        opacity: 1;
+                    }
+                }
+            }
         }
 
         .fa-node-js{
             color:$node;
+
+            &:hover{
+                .nodePopup{
+                    opacity: 1;
+    
+                    p{
+                        display: block;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        .fa-git{
+            &:hover{
+                .gitPopup{
+                    opacity: 1;
+    
+                    p{
+                        display: block;
+                        opacity: 1;
+                    }
+                }
+            }
         }
 
         img{

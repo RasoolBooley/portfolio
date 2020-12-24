@@ -10,7 +10,7 @@ export default class extends AbstractView{
         return `
         <div class="contact-page">
         <img src="./static/img/logo_transparent.png" srcset="">
-        <h2 class="contact-text">Contact Me & Get To Know Me!</h2>
+        <h2 class="contact-text">Contact Me!</h2>
 
         <div class="contact-logos">
             <div>                

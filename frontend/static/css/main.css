@@ -9,7 +9,8 @@ nav {
   color: #f5f5f5;
   border-bottom: 1px #f5f5f5 solid;
   position: sticky;
-  top: 0; }
+  top: 0;
+  z-index: 3; }
   nav .logo {
     color: #f5f5f5;
     letter-spacing: 4px;
@@ -187,14 +188,93 @@ body {
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 25px;
     padding: 50px; }
+    .skill-section .skills-grid .text-box {
+      position: absolute;
+      opacity: 0;
+      height: auto;
+      width: 200px;
+      background-color: #ebdfdff5;
+      border: 1px solid #697ace;
+      border-radius: 5px;
+      display: block;
+      transition: .3s;
+      margin-top: -100px; }
+      .skill-section .skills-grid .text-box p {
+        color: #697ace;
+        text-align: center;
+        padding: 10px;
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        opacity: 0;
+        width: 200px;
+        transition: .6s;
+        font-weight: 100; }
+    .skill-section .skills-grid .fa-windows {
+      color: #7979c7; }
+      .skill-section .skills-grid .fa-windows:hover .cPopup {
+        opacity: 1; }
+        .skill-section .skills-grid .fa-windows:hover .cPopup p {
+          display: block;
+          opacity: 1; }
+    .skill-section .skills-grid .fa-vuejs:hover .vuePopup {
+      opacity: 1; }
+      .skill-section .skills-grid .fa-vuejs:hover .vuePopup p {
+        display: block;
+        opacity: 1; }
     .skill-section .skills-grid .fa-html5 {
       color: #be8212; }
+      .skill-section .skills-grid .fa-html5:hover .htmlPopup {
+        opacity: 1; }
+        .skill-section .skills-grid .fa-html5:hover .htmlPopup p {
+          display: block;
+          opacity: 1; }
+    .skill-section .skills-grid .fa-sass {
+      color: #cf6476; }
+      .skill-section .skills-grid .fa-sass:hover .sassPopup {
+        opacity: 1; }
+        .skill-section .skills-grid .fa-sass:hover .sassPopup p {
+          display: block;
+          opacity: 1; }
+    .skill-section .skills-grid .fa-jira {
+      color: #1818cf; }
+      .skill-section .skills-grid .fa-jira:hover .jiraPopup {
+        opacity: 1; }
+        .skill-section .skills-grid .fa-jira:hover .jiraPopup p {
+          display: block;
+          opacity: 1; }
+    .skill-section .skills-grid .fa-database {
+      color: purple; }
+      .skill-section .skills-grid .fa-database:hover .sqlPopup {
+        opacity: 1; }
+        .skill-section .skills-grid .fa-database:hover .sqlPopup p {
+          display: block;
+          opacity: 1; }
     .skill-section .skills-grid .fa-css3-alt {
       color: blue; }
+      .skill-section .skills-grid .fa-css3-alt:hover .cssPopup {
+        opacity: 1; }
+        .skill-section .skills-grid .fa-css3-alt:hover .cssPopup p {
+          display: block;
+          opacity: 1; }
     .skill-section .skills-grid .fa-js-square {
       color: #caca00; }
+      .skill-section .skills-grid .fa-js-square:hover .jsPopup {
+        opacity: 1; }
+        .skill-section .skills-grid .fa-js-square:hover .jsPopup p {
+          display: block;
+          opacity: 1; }
     .skill-section .skills-grid .fa-node-js {
       color: green; }
+      .skill-section .skills-grid .fa-node-js:hover .nodePopup {
+        opacity: 1; }
+        .skill-section .skills-grid .fa-node-js:hover .nodePopup p {
+          display: block;
+          opacity: 1; }
+    .skill-section .skills-grid .fa-git:hover .gitPopup {
+      opacity: 1; }
+      .skill-section .skills-grid .fa-git:hover .gitPopup p {
+        display: block;
+        opacity: 1; }
     .skill-section .skills-grid img {
       height: 70px;
       width: 70px; }

@@ -11,7 +11,7 @@ const navSlide = () => {
         navLinks.forEach((link, index)=>{
             if(link.style.animation){
                 link.style.animation = ''
-            } else{
+            } else {
                 link.style.animation = `navFade 0.5s ease forwards ${index / 7 + .5}s`
             }
         });
@@ -38,7 +38,27 @@ const newPage = () => {
     });
 };
 
+const clicked = () =>{
+    const infoBoxes = document.querySelector(".text-box");
+    document.querySelectorAll(".skills-grid i, img").forEach(item =>{
+        item.addEventListener("click", () =>{
+
+            if(infoBoxes.style.display === "none"){
+                infoBoxes.style.display = 'block';
+            }         
+
+            else {
+                infoBoxes.style.display = 'none';
+                console.log("off")
+            }
+        });
+    });
+};
+
+
+
 const app = () => {
+    clicked();
     newPage();
     navSlide();
 };
