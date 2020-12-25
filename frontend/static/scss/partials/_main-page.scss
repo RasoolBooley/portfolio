@@ -257,12 +257,110 @@
         padding: 70px 0 15px 0;
         color: $white;
     }
+
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+
+        .card{
+            background-color: red;
+            height: 400px;
+            width: 300px;
+            margin: 20px;
+            text-align: left;
+            box-shadow: 0 0 8px $dark-pastel-orange, 5px 5px 8px $dark-pastel-orange;
+            border-radius: 15px 15px 15px 15px;
+
+            .card-img{
+                background-color: pink;
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 50%;
+                width: 100%;
+                border-radius: 15px 15px 0 0;
+            }
+
+            .card-content{
+                background-color: $white;
+                color: black;
+                height: 50%;
+                width: 100%;
+                padding: 15px;
+                font-family: $main-font;
+                border-radius: 0 0 15px 15px;
+
+                h3{
+                    padding: 5px 0;
+                }
+
+                p{
+                    margin-bottom: 30px;
+                }
+
+                a{
+                    background-color: $dark-blue;
+                    text-decoration: none;
+                    color: $white;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                }
+
+            }
+
+            .canvas{
+                background-image: url(../img/canvas.png);
+            }
+
+            .drumkit{
+                background-image: url(../img/drumkit.png);
+            }
+
+            .sequence{
+                background-image: url(../img/sequence.png);
+            }
+
+            .adventures{
+                background-image: url(../img/adventures.png);
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px){
+    .projects-section{
+        .card-container{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
 }
 
 @media (max-width: 1080px) {
     .main-header{
         .landing-content{
             margin-left: 60px;
+        }
+    }
+}
+
+@media (max-width: 800px){
+    .projects-section{
+        .card-container{
+            display: block;
+
+            .card{
+                margin: 50px;
+            }
+        }
+    }
+
+    .skill-section{
+        .skills-grid{
+                .text-box{
+                    p{
+                        display: none;
+                    }
+                }
         }
     }
 }
@@ -279,6 +377,12 @@
         .skills-grid{
             grid-template-columns: repeat(2, 1fr);
             grid-gap: 100px;
+
+            .text-box{
+                p{
+                    display: none;
+                }
+            }
         }
     }
 }
